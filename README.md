@@ -1,3 +1,4 @@
+![Alt text](https://github.com/dhananjay92/Quora-read-extension/blob/extra-data/imgs/icon.png)
 Quora Reader Extension
 ======================
 A small utility extension for chrome to make reading easier on Quora Pages.
