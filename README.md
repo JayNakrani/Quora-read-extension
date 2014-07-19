@@ -15,3 +15,11 @@ It toggles between Reading Mode and Normal mode. Basically it hides the left & r
 <h2>How to use</h2>
 
 After sucessful installation you can use the extension to toggle between Reading and Normal mode. You just have to click on the extension icon on the top-right corner of the browser window and it'll toggle modes.
+
+
+<h2>ScreenShots</h2>
+**Normal Mode:**
+![Alt text](https://github.com/dhananjay92/Quora-read-extension/blob/extra-data/imgs/NormalMode.png)
+
+**Reading Mode:**
+![Alt text](https://github.com/dhananjay92/Quora-read-extension/blob/extra-data/imgs/ReadingMode.png)
