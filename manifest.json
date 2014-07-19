@@ -1,0 +1,25 @@
+/**
+ * Manifest file for Quora Reader Extension.
+ *
+ * @author  Dhananjay Nakrani (dhananjaynakrani@gmail.com)
+ * @license GNU GENERAL PUBLIC LICENSE 2.0
+ *
+ */
+
+{
+  "name": "Quora Reading Mode",
+  "description": "Changes Quora page display. It toggles between reading and normal mode.",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_title": "Reading Mode for Quora Pages",
+    "default_icon": "imgs/icon.png"
+  },
+  "manifest_version": 2
+}
