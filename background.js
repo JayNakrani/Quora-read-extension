@@ -13,19 +13,19 @@
  */
 function modeToggler() {
 	if (document.body.getAttribute("quora_reading_mode") == "1") {
-	//unset the flag
-	document.body.setAttribute("quora_reading_mode","0");
-	//undo all the changes
-	document.getElementsByClassName("grid_page_right_col")[0].style.display = "";
-	document.getElementsByClassName("grid_page_left_col")[0].style.display = "";
-	document.getElementsByClassName("grid_page_center_col")[0].style.width = "";
+		//unset the flag
+		document.body.setAttribute("quora_reading_mode","0");
+		//undo all the changes
+		document.getElementsByClassName("grid_page_right_col")[0].style.display = "";
+		document.getElementsByClassName("grid_page_left_col")[0].style.display = "";
+		document.getElementsByClassName("grid_page_center_col")[0].style.width = "";
 	} else {
-	//set the flag
-	document.body.setAttribute("quora_reading_mode","1");
-	//do all the changes
-	document.getElementsByClassName("grid_page_right_col")[0].style.display = "none";
-	document.getElementsByClassName("grid_page_left_col")[0].style.display = "none";
-	document.getElementsByClassName("grid_page_center_col")[0].style.width = "100%";
+		//set the flag
+		document.body.setAttribute("quora_reading_mode","1");
+		//do all the changes
+		document.getElementsByClassName("grid_page_right_col")[0].style.display = "none";
+		document.getElementsByClassName("grid_page_left_col")[0].style.display = "none";
+		document.getElementsByClassName("grid_page_center_col")[0].style.width = "100%";
 	}
 }
 
